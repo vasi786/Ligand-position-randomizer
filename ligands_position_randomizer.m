@@ -7,41 +7,41 @@ zcoords_pro = protein.data(:,3);
 l1_pro = find(xcoords_pro==max(xcoords_pro));
 
 location1_max(1) = xcoords_pro(l1_pro,:);
-location1_max(2) = ycoords_pro(l1_pro,:);
-location1_max(3) = zcoords_pro(l1_pro,:);
+%location1_max(2) = ycoords_pro(l1_pro,:);
+%location1_max(3) = zcoords_pro(l1_pro,:);
 
 
 l2_pro = find(ycoords_pro==max(ycoords_pro));
 
-location2_max(1) = xcoords_pro(l2_pro,:);
+%location2_max(1) = xcoords_pro(l2_pro,:);
 location2_max(2) = ycoords_pro(l2_pro,:);
-location2_max(3) = zcoords_pro(l2_pro,:);
+%location2_max(3) = zcoords_pro(l2_pro,:);
 
 
 
 l3_pro = find(zcoords_pro==max(zcoords_pro));
 
-location3_max(1) = xcoords_pro(l3_pro,:);
-location3_max(2) = ycoords_pro(l3_pro,:);
+%location3_max(1) = xcoords_pro(l3_pro,:);
+%location3_max(2) = ycoords_pro(l3_pro,:);
 location3_max(3) = zcoords_pro(l3_pro,:);
 
 l4_pro = find(xcoords_pro==min(xcoords_pro));
 
 location1_min(1) = xcoords_pro(l4_pro,:);
-location1_min(2) = ycoords_pro(l4_pro,:);
-location1_min(3) = zcoords_pro(l4_pro,:);
+%location1_min(2) = ycoords_pro(l4_pro,:);
+%location1_min(3) = zcoords_pro(l4_pro,:);
 
 
 l5_pro = find(ycoords_pro==min(ycoords_pro));
 
-location2_min(1) = xcoords_pro(l5_pro,:);
+%location2_min(1) = xcoords_pro(l5_pro,:);
 location2_min(2) = ycoords_pro(l5_pro,:);
-location2_min(3) = zcoords_pro(l5_pro,:);
+%location2_min(3) = zcoords_pro(l5_pro,:);
 
 l6_pro = find(zcoords_pro==min(zcoords_pro));
 
-location3_min(1) = xcoords_pro(l6_pro,:);
-location3_min(2) = ycoords_pro(l6_pro,:);
+%location3_min(1) = xcoords_pro(l6_pro,:);
+%location3_min(2) = ycoords_pro(l6_pro,:);
 location3_min(3) = zcoords_pro(l6_pro,:);
 
 
